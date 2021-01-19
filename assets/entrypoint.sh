@@ -13,7 +13,7 @@ if [ "$AUTOUPDATE" = true ] ; then
     else    
         AWTRIX_DL_URL=https://blueforcer.de/awtrix/stable/awtrix.jar      
     fi
-
+#wget is not found,please consider this problem and install in advance and make sure it works
 wget $AWTRIX_DL_URL -O /data/awtrix.jar
 fi
 
